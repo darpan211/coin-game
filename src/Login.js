@@ -4,7 +4,6 @@ import axios from "axios";
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {Redirect, useHistory} from "react-router-dom";
-// import auth from "./auth";
 
 const Login = () => {
     const users = JSON.parse(localStorage.getItem('token'));
