@@ -64,11 +64,11 @@ const Dashboard = () => {
                                     {
                                         newData.map((ele, i) => {
                                             return (
-                                                <div className={'col-1'}>
+                                                <div key={i} className={'col-1'}>
                                                     {
-                                                        ele.map((e,i) => {
+                                                        ele.map((e,index) => {
                                                            return(
-                                                               <div>{ e }</div>
+                                                               <div key={index}>{ e }</div>
                                                            )
                                                         })
                                                     }

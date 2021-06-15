@@ -7,9 +7,9 @@ const Home = () => {
 
     return(
         <>
-           <Stack wrap horizontal horizontalAlign={'center'} style={{height:'100vh'}}>
+           <Stack wrap horizontal horizontalAlign={'center'} style={{height:'100vh', background:'ghostwhite'}}>
                 <Stack verticalAlign={'center'}>
-                    <PrimaryButton onClick={() => history.push('/login') }>Home</PrimaryButton>
+                    <PrimaryButton onClick={() => history.push('/login') }>Click Here to Play the Game</PrimaryButton>
                 </Stack>
            </Stack>
         </>
